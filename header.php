@@ -54,8 +54,9 @@
 				<li class="header-nav__item"><a href="#!">Categories</a></li>
 				<li class="header-nav__item"><a href="#!">Pages</a></li>
 			</ul>
- -->		</nav>
+ -->	
 
+		</nav>
 		<div class="header-logo"><a href="#!">Shophia</a></div>
 		<!-- <div class="header-logo"><a href="#!"><?php the_custom_logo(  ) ?></a></div> -->
 			
@@ -70,3 +71,4 @@
 		</div>
 	</section>
 </header>
+<?php wp_reset_postdata(); ?>	
