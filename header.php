@@ -55,7 +55,7 @@
 				<li class="header-nav__item"><a href="#!">Pages</a></li>
 			</ul>
  -->	
-
+		<?php wp_reset_postdata(); ?>	
 		</nav>
 		<div class="header-logo"><a href="#!">Shophia</a></div>
 		<!-- <div class="header-logo"><a href="#!"><?php the_custom_logo(  ) ?></a></div> -->
@@ -71,4 +71,3 @@
 		</div>
 	</section>
 </header>
-<?php wp_reset_postdata(); ?>	
